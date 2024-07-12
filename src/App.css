@@ -1,0 +1,39 @@
+
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Sora", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#root {
+  background-color: rgb(238, 230, 246);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  width: 350px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 25px;
+  background-color: white;
+  box-shadow: 0 0 10px 5px #ccc;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: rgb(142, 89, 221);
+  font-weight: 600;
+  font-size: 1.4rem;
+}
